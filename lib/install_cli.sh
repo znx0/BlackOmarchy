@@ -42,7 +42,7 @@ seed_src_tree() {
   root=$(project_root_from_lib)
   [[ -n $home && $home != /root && -d $root ]] || return 0
   as_owner "$owner" mkdir -p "$dest"
-  local url="${BLACKOMARCHY_GIT_URL:-https://github.com/MahdiHedhli/BlackOmarchy.git}"
+  local url="${BLACKOMARCHY_GIT_URL:-https://github.com/znx0/BlackOmarchy.git}"
   if [[ ! -d $dest/.git ]] && have_cmd git; then
     as_owner "$owner" git clone --depth 1 "$url" "$dest" 2>/dev/null || true
   fi

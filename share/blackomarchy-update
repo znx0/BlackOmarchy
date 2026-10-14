@@ -4,7 +4,7 @@
 # This refreshes CLI, hooks, skills, and the login wordmark.
 set -euo pipefail
 
-URL="${BLACKOMARCHY_GIT_URL:-https://github.com/MahdiHedhli/BlackOmarchy.git}"
+URL="${BLACKOMARCHY_GIT_URL:-https://github.com/znx0/BlackOmarchy.git}"
 
 git_user() {
   if [[ -n ${SUDO_USER:-} && ${SUDO_USER} != root ]]; then

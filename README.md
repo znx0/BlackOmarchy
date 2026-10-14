@@ -69,7 +69,7 @@ Copy the repository to the Omarchy machine, read `bootstrap.sh`, then
 run it.
 
 ```bash
-git clone https://github.com/MahdiHedhli/BlackOmarchy.git
+git clone https://github.com/znx0/BlackOmarchy.git
 cd BlackOmarchy
 less bootstrap.sh
 sudo ./bootstrap.sh

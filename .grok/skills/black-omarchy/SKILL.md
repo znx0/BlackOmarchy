@@ -26,7 +26,7 @@ If `blackomarchy` is missing, the layer is not installed. Install from
 the Omarchy menu (**Install > Black omARCHy**) or:
 
 ```bash
-git clone https://github.com/MahdiHedhli/BlackOmarchy.git
+git clone https://github.com/znx0/BlackOmarchy.git
 cd BlackOmarchy
 sudo ./bootstrap.sh
 ```

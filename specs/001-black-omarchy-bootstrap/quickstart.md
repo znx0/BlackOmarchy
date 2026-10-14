@@ -5,7 +5,7 @@ v0.1 install is clone, read, then run. There is no remote root pipe.
 On the Omarchy host:
 
 ```bash
-git clone https://github.com/MahdiHedhli/BlackOmarchy.git
+git clone https://github.com/znx0/BlackOmarchy.git
 cd BlackOmarchy
 less bootstrap.sh
 sudo ./bootstrap.sh

@@ -4,7 +4,7 @@
 set -euo pipefail
 
 SRC="${BLACKOMARCHY_SRC:-$HOME/.local/share/blackomarchy-src}"
-URL="${BLACKOMARCHY_GIT_URL:-https://github.com/MahdiHedhli/BlackOmarchy.git}"
+URL="${BLACKOMARCHY_GIT_URL:-https://github.com/znx0/BlackOmarchy.git}"
 
 if [[ -x $SRC/bootstrap.sh ]]; then
   if [[ -d $SRC/.git ]] && [[ -z $(git -C "$SRC" status --porcelain 2>/dev/null || true) ]]; then
